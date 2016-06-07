@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 4.8.1 mingw32 -mcpu=cortex-m4 -mthumb -g2 -Wall -O0 -c -DSTM32F429ZI -DSTM32F429xx -I..\..\..\..\..\..\..\Desktop\STM32Cube_FW_F4_V1.5.0\Drivers\STM32F4xx_HAL_Driver -I..\..\..\..\..\..\..\Desktop\STM32Cube_FW_F4_V1.5.0\Drivers\CMSIS\Include -I..\..\..\..\..\..\..\Desktop\STM32Cube_FW_F4_V1.5.0\Drivers\STM32F4xx_HAL_Driver\Inc -I..\..\..\..\..\..\..\Desktop\STM32Cube_FW_F4_V1.5.0\Drivers -I..\..\..\..\..\..\..\Desktop\RTOS-master\app -I..\..\..\..\..\..\..\Desktop -I..\..\..\..\..\..\..\Desktop\STM32Cube_FW_F4_V1.5.0\Drivers\CMSIS -I..\..\..\..\..\..\..\Desktop\RTOS-master">
+      <target file="Semaphore.o" lastModified="155295e3727">
+         <source file="..\..\..\app\Semaphore.c" lastModified="14eebe698b8"/>
+      </target>
+      <target file="stm32f4xx_hal_rcc.o" lastModified="155295e34e6">
+         <source file="..\..\..\..\STM32Cube_FW_F4_V1.5.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c" lastModified="14c0ebff760"/>
+      </target>
+      <target file="stm32f4xx_it.o" lastModified="155296136a6">
+         <source file="..\..\..\app\stm32f4xx_it.c" lastModified="15529612a66"/>
+      </target>
+      <target file="stm32f4xx_hal.o" lastModified="155295e33cd">
+         <source file="..\..\..\..\STM32Cube_FW_F4_V1.5.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c" lastModified="14c0ebff760"/>
+      </target>
+      <target file="LED.o" lastModified="155295e3997">
+         <source file="..\..\..\app\LED.c" lastModified="14eebe698b8"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="155295e36ab">
+         <source file="..\..\..\app\system_stm32f4xx.c" lastModified="14eebe698b8"/>
+      </target>
+      <target file="startup_stm32f429xx.o" lastModified="155295e32d2">
+         <source file="..\..\..\app\startup_stm32f429xx.s" lastModified="14eebe698b8"/>
+      </target>
+      <target file="stm32f4xx_hal_cortex.o" lastModified="155295e361e">
+         <source file="..\..\..\..\STM32Cube_FW_F4_V1.5.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c" lastModified="14c0ebff760"/>
+      </target>
+      <target file="main.o" lastModified="15529697476">
+         <source file="..\..\..\app\main.c" lastModified="15529696e2b"/>
+      </target>
+      <target file="Mailbox.o" lastModified="155295e30cf">
+         <source file="..\..\..\app\Mailbox.c" lastModified="14eebe698b8"/>
+      </target>
+      <target file="stm32f4xx_hal_gpio.o" lastModified="155295e388e">
+         <source file="..\..\..\..\STM32Cube_FW_F4_V1.5.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c" lastModified="14c0ebff760"/>
+      </target>
+      <target file="Task.o" lastModified="155295e3062">
+         <source file="..\..\..\app\Task.c" lastModified="14eebe698b8"/>
+      </target>
+      <target file="mutex.o" lastModified="155295e3795">
+         <source file="..\..\..\app\mutex.c" lastModified="14eebe698b8"/>
+      </target>
+      <target file="assembly.o" lastModified="155295e3515">
+         <source file="..\..\..\app\assembly.s" lastModified="14eebe698b8"/>
+      </target>
+      <target file="schedular.o" lastModified="15529617e96">
+         <source file="..\..\..\app\schedular.s" lastModified="155296179e5"/>
+      </target>
+   </processor>
+</history>
