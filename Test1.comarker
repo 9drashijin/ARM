@@ -15,8 +15,8 @@
 <attrib name="registered" value="true"/>
 <attrib name="path" value="/"/>
 <attrib name="org.eclipse.cdt.debug.core.sourceHandle" value="C:\Users\Marcin\Desktop\bmp library\math.h"/>
-<attrib name="org.eclipse.debug.core.enabled" value="false"/>
 <attrib name="org.eclipse.cdt.debug.core.ignoreCount" value="0"/>
+<attrib name="org.eclipse.debug.core.enabled" value="false"/>
 </marker>
 </breakpoint>
 <breakpoint enabled="false" persistant="true" registered="true">
@@ -35,8 +35,8 @@
 <attrib name="registered" value="true"/>
 <attrib name="path" value="/"/>
 <attrib name="org.eclipse.cdt.debug.core.sourceHandle" value="C:\Users\D203C-01\CoIDE\workspace\DAC\app\main.c"/>
-<attrib name="org.eclipse.cdt.debug.core.ignoreCount" value="0"/>
 <attrib name="org.eclipse.debug.core.enabled" value="false"/>
+<attrib name="org.eclipse.cdt.debug.core.ignoreCount" value="0"/>
 </marker>
 </breakpoint>
 <breakpoint enabled="false" persistant="true" registered="true">
@@ -57,15 +57,15 @@
 <attrib name="charStart" value="-1"/>
 <attrib name="path" value="/"/>
 <attrib name="charEnd" value="-1"/>
-<attrib name="org.eclipse.cdt.debug.core.ignoreCount" value="0"/>
 <attrib name="org.eclipse.debug.core.enabled" value="false"/>
+<attrib name="org.eclipse.cdt.debug.core.ignoreCount" value="0"/>
 </marker>
 </breakpoint>
 <breakpoint enabled="false" persistant="true" registered="true">
 <resource path="/" type="8"/>
 <marker charStart="-1" lineNumber="-1" type="org.eclipse.cdt.debug.core.cAddressBreakpointMarker">
-<attrib name="enabled" value="true"/>
 <attrib name="org.eclipse.cdt.debug.core.condition" value=""/>
+<attrib name="enabled" value="true"/>
 <attrib name="org.eclipse.cdt.debug.core.address" value="0x0000000008000314"/>
 <attrib name="org.eclipse.debug.core.id" value="org.eclipse.cdt.debug.core"/>
 <attrib name="workingset_name" value=""/>
@@ -79,8 +79,8 @@
 <attrib name="charStart" value="-1"/>
 <attrib name="path" value="/"/>
 <attrib name="charEnd" value="-1"/>
-<attrib name="org.eclipse.cdt.debug.core.ignoreCount" value="0"/>
 <attrib name="org.eclipse.debug.core.enabled" value="false"/>
+<attrib name="org.eclipse.cdt.debug.core.ignoreCount" value="0"/>
 </marker>
 </breakpoint>
 <breakpoint enabled="false" persistant="true" registered="true">
@@ -99,8 +99,8 @@
 <attrib name="registered" value="true"/>
 <attrib name="path" value="/Test1/stm32f4xx_it.c"/>
 <attrib name="org.eclipse.cdt.debug.core.sourceHandle" value="C:\Users\D203C-01\CoIDE\workspace\stm32f4-discovery-LEDs\app\stm32f4xx_it.c"/>
-<attrib name="org.eclipse.cdt.debug.core.ignoreCount" value="0"/>
 <attrib name="org.eclipse.debug.core.enabled" value="false"/>
+<attrib name="org.eclipse.cdt.debug.core.ignoreCount" value="0"/>
 </marker>
 </breakpoint>
 <breakpoint enabled="false" persistant="true" registered="true">
@@ -120,8 +120,8 @@
 <attrib name="registered" value="true"/>
 <attrib name="path" value="/Test1/schedular.s"/>
 <attrib name="org.eclipse.cdt.debug.core.sourceHandle" value="C:\Users\D203C-01\CoIDE\workspace\stm32f4-discovery-LEDs\app\schedular.s"/>
-<attrib name="org.eclipse.cdt.debug.core.ignoreCount" value="0"/>
 <attrib name="org.eclipse.debug.core.enabled" value="false"/>
+<attrib name="org.eclipse.cdt.debug.core.ignoreCount" value="0"/>
 </marker>
 </breakpoint>
 <breakpoint enabled="false" persistant="true" registered="true">
@@ -140,8 +140,8 @@
 <attrib name="registered" value="true"/>
 <attrib name="path" value="/Test1/main.c"/>
 <attrib name="org.eclipse.cdt.debug.core.sourceHandle" value="C:\Users\D203C-01\CoIDE\workspace\stm32f4-discovery-LEDs\app\main.c"/>
-<attrib name="org.eclipse.debug.core.enabled" value="false"/>
 <attrib name="org.eclipse.cdt.debug.core.ignoreCount" value="0"/>
+<attrib name="org.eclipse.debug.core.enabled" value="false"/>
 </marker>
 </breakpoint>
 <breakpoint enabled="false" persistant="true" registered="true">
@@ -159,8 +159,8 @@
 <attrib name="registered" value="true"/>
 <attrib name="path" value="/Test1/main.c"/>
 <attrib name="org.eclipse.cdt.debug.core.sourceHandle" value="C:\Users\D203C-01\Desktop\RTOS-master\app\main.c"/>
-<attrib name="org.eclipse.cdt.debug.core.ignoreCount" value="0"/>
 <attrib name="org.eclipse.debug.core.enabled" value="false"/>
+<attrib name="org.eclipse.cdt.debug.core.ignoreCount" value="0"/>
 </marker>
 </breakpoint>
 </breakpoints>
