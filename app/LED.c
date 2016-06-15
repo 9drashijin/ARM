@@ -1,6 +1,7 @@
 #include "stm32f4xx_hal.h"
 #include "stm32f4xx_hal_gpio.h"
 #include "LED.h"
+#include "stdbool.h"
 
 uint32_t currentTime = 0;
 int FAST_BLINK = 20;
@@ -393,3 +394,63 @@ void blink_4_LEDs(TaskBlock *tb)
 		endTaskLED(tb)
 	}
 }
+
+void blink_LED_with_button()
+{
+	static State state = LED_INITIAL;
+	static uint32_t previousTime = 0;
+	static bool buttonHasRelease = NULL;
+
+	//FAST_BLINK = 100; // buttonA
+	//FAST_BLINK = 60;  // buttonB
+
+	if(switchControl() == GPIO_PIN_RESET) buttonHasRelease = false;
+
+
+	switch(state)
+	{
+		case LED_INITIAL:   turnOffLED1();turnOffLED2();
+							if(delay(FAST_BLINKS, previousTime))
+							{
+								if(switchControl() == GPIO_PIN_SET)
+								{
+									state = LED_ON_STATE;
+									FAST_BLINKS = 100;
+								}
+								else
+								{
+									state = LED_OFF_STATE;
+								}
+								if(switchControl2() == GPIO_PIN_SET)
+								{
+									state = LED_ON_STATE;
+									FAST_BLINKS = 60;
+								}
+								else
+								{
+									state = LED_OFF_STATE;
+								}
+								previousTime = currentTime;
+							}
+							break;
+
+		case LED_ON_STATE:  turnOnLED1();turnOnLED2();
+							if(delay(FAST_BLINKS, previousTime))
+							{
+								state = LED_OFF_STATE;
+								previousTime = currentTime;
+							}
+							break;
+
+		case LED_OFF_STATE: turnOffLED1();turnOffLED2();
+							if(delay(FAST_BLINKS, previousTime))
+							{
+								state = LED_ON_STATE;
+								previousTime = currentTime;
+							}
+							break;
+		case TURNING_OFF_LED:
+							break;
+	}
+}
+

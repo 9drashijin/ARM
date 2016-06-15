@@ -10,7 +10,8 @@
 #define turnOnLED4() 	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_5, GPIO_PIN_SET);
 #define turnOffLED4()	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_5, GPIO_PIN_RESET);
 
-#define switchControl()	HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0)
+#define switchControl()		HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0)
+#define switchControl2()	HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_1)
 
 #define initTaskBlock(x) 		((x)->state = LED_INITIAL)
 #define yieldLED(x) 			(x)->state = __LINE__; } break; case __LINE__:
@@ -27,7 +28,10 @@
 typedef enum{
 	LED_INITIAL,
 	LED_ON_STATE,
-	LED_OFF_STATE
+	LED_OFF_STATE,
+	PRESS_LED_ON,
+	PRESS_LED_OFF,
+	TURNING_OFF_LED
 }State;
 
 typedef struct{
@@ -50,5 +54,6 @@ void blink_LED2_yield(TaskBlock *tb);
 void blink_LED3_yield(TaskBlock *tb);
 void blink_4_LEDs(TaskBlock *tb);
 void yieldTest(TaskBlock *tb);
+void blink_LED_with_button();
 
 #endif /* __LED_H */
